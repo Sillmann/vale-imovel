@@ -1,0 +1,52 @@
+{
+  "name": "dapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
+    "@react-navigation/core": "^7.0.0",
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/stack": "^7.0.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "native-base": "^3.4.28",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^4.0.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "^0.17.1",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.13",
+    "web-vitals": "^1.1.2",
+    "web3": "^4.15.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
